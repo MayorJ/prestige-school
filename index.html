@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestige International School</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Prestige International School</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Video Background -->
+    <section id="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="mp4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-text">
+            <h2>Welcome to Prestige International School</h2>
+            <p>Providing quality education for future leaders.</p>
+            <button onclick="toggleMoreInfo()">Learn More</button>
+            <div id="more-info" class="hidden">
+                <p>Our school fosters excellence in academics, sports, and character building.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Carousel Section -->
+    <section id="carousel">
+        <h2>Our School in Pictures</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src="school1.jpg" alt="School Image 1">
+                <img src="school2.jpg" alt="School Image 2">
+                <img src="school3.jpg" alt="School Image 3">
+            </div>
+            <button id="prev">&#10094;</button>
+            <button id="next">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Prestige International School is dedicated to nurturing young minds with a world-class curriculum.</p>
+    </section>
+
+    <section id="academics">
+        <h2>Our Academics</h2>
+        <p>We offer a robust curriculum that includes Science, Arts, and Vocational Studies.</p>
+    </section>
+
+    <section id="admission">
+        <h2>Admission Process</h2>
+        <p>Join our community today. Apply for the upcoming academic session.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@prestigeschool.com</p>
+        <p>Phone: +234 800 123 4567</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Prestige International School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
